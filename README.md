@@ -8,8 +8,8 @@ Dependencies: scipy 1.9.3, scikit-learn 1.0.2, pandas 1.4.2, numpy 1.21.5, netwo
 contact: chernikova.a@northeastern.edu
 
 ## Project Structure
-*	graphs/
-		* .net files containing graphs for threshold evaluation subsection
+* graphs/
+  * .net files containing graphs for threshold evaluation subsection
 *	AIC_model_fitting.py
 *	SMC_MNN_parameter_estimation.py
 *	SPM_experiments_on_graphs.py
