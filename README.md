@@ -28,7 +28,9 @@ Additionally, the file contains the functionality for reading the WC traces and 
 ## Parameters Estimation with Sequential Monte-Carlo (SMC-MNN) Approach when Covariance Matrix is Calculated using M Nearest Neighbors of the Particle
 To estimate the posterior distribution of SIIDR transition rates, run SMC_MNN_parameter_estimation.py. To do this, you will need files with WC traces available on reasonable request (contact: chernikova.a@northeastern.edu). The output will contain the estimated posterior distribution's mean value and standard deviation of transition rates.
 
-## Simulation of SIIDR Propagation on Graphs
+## Simulation of SI, SIS, SIR, SIIDR Propagation on Graphs
+SPM_graph_simulation.py file contains the utility functions to simulate models on graphs. To run the simulation you need to run SPM_experiments_on_graphs.py which produces the files that contain the number, fraction, standard deviation, 50% and 95% percentiles (for both count and fraction) of individuals in each model's comparment at each timestamp.
+
 
 
 
