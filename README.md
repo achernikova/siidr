@@ -3,7 +3,7 @@ Code for Modeling Self-Propagating Malware with Epidemiological Models manuscrip
 where we propose a new epidemiological-inspired model for SPM, called SIIDR, and extensively study its essential characteristics.
 
 Language: python 3.9
-Dependencies: scipy 1.9.3, scikit-learn 1.0.2, pandas 1.4.2, numpy 1.21.5, networkx 2.8.8, igraph
+Dependencies: scipy 1.9.3, scikit-learn 1.0.2, pandas 1.4.2, numpy 1.21.5, networkx 2.8.8, matplotlib 3.5.1, igraph
 
 ## Project Structure
 *	graphs/
