@@ -26,6 +26,7 @@ The output will contain the minimum AIC score for each model, associated paramet
 Additionally, the file contains the functionality for reading the WC traces and locating all malicious traffic towards the internal network.
 
 ## Parameters Estimation with Sequential Monte-Carlo (SMC-MNN) Approach when Covariance Matrix is Calculated using M Nearest Neighbors of the Particle
+To estimate the posterior distribution of SIIDR transition rates, run SMC_MNN_parameter_estimation.py. To do this, you will need files with WC traces available on reasonable request (contact: chernikova.a@northeastern.edu). The output will contain the estimated posterior distribution's mean value and standard deviation of transition rates.
 
 ## Simulation of SIIDR Propagation on Graphs
 
